@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b80e6ceff6a8b14bad58beee6a8e881
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 324533
+  packageName: Classic Duty .38 Revolver
+  packageVersion: 1.0
+  assetPath: Assets/Revolver/Mesh/Materials/Revolver.mat
+  uploadId: 771009

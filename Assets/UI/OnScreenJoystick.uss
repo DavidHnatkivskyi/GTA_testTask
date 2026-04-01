@@ -1,0 +1,141 @@
+.hud-root {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.joystick-root,
+.joystick-look-root,
+.joystick-base,
+.joystick-knob,
+.pickup-button,
+.fire-button,
+.crosshair {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.joystick-root {
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+
+    width: 220px;
+    height: 220px;
+    min-width: 220px;
+    min-height: 220px;
+    max-width: 220px;
+    max-height: 220px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.joystick-look-root {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+
+    width: 220px;
+    height: 220px;
+    min-width: 220px;
+    min-height: 220px;
+    max-width: 220px;
+    max-height: 220px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.joystick-base {
+    width: 180px;
+    height: 180px;
+    min-width: 180px;
+    min-height: 180px;
+    max-width: 180px;
+    max-height: 180px;
+
+    border-radius: 90px;
+    background-color: rgba(255, 255, 255, 0.12);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.joystick-knob {
+    position: absolute;
+
+    width: 72px;
+    height: 72px;
+    min-width: 72px;
+    min-height: 72px;
+    max-width: 72px;
+    max-height: 72px;
+
+    border-radius: 36px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.pickup-button {
+    position: absolute;
+    left: 100px;
+    bottom: 260px;
+
+    width: 140px;
+    height: 50px;
+    min-width: 140px;
+    min-height: 50px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+
+    unity-font-style: bold;
+    font-size: 18px;
+
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+}
+
+.fire-button {
+    position: absolute;
+    right: 60px;
+    bottom: 260px;
+
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+
+    background-color: rgba(255, 50, 50, 0.7);
+    border-radius: 60px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.crosshair {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    width: 12px;
+    height: 12px;
+    min-width: 12px;
+    min-height: 12px;
+    max-width: 12px;
+    max-height: 12px;
+
+    margin-left: -6px;
+    margin-top: -6px;
+
+    background-color: rgba(255, 50, 50, 0.7);
+    border-radius: 6px;
+}

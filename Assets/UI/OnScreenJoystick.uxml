@@ -1,0 +1,34 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:engine="UnityEngine.UIElements"
+             xmlns:editor="UnityEditor.UIElements"
+             noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+             editor-extension-mode="False">
+
+    <Style src="project://database/Assets/UI/OnScreenJoystick.uss?fileID=7433441132597879392&amp;guid=876ae89b18c6c8d45a10882efb4175b5&amp;type=3#OnScreenJoystick" />
+
+    <engine:VisualElement name="hud-root" class="hud-root">
+
+        <engine:VisualElement name="joystick-root" class="joystick-root">
+            <engine:VisualElement name="joystick-base" class="joystick-base">
+                <engine:VisualElement name="joystick-knob" class="joystick-knob" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+        <engine:VisualElement name="joystick-look-root" class="joystick-look-root">
+            <engine:VisualElement name="joystick-look-base" class="joystick-base">
+                <engine:VisualElement name="joystick-look-knob" class="joystick-knob" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+        <engine:Button text="Button"
+                       name="pickup-button"
+                       class="pickup-button" />
+
+        <engine:VisualElement name="fire-button"
+                              class="fire-button" />
+
+        <engine:VisualElement name="crosshair"
+                              class="crosshair" />
+
+    </engine:VisualElement>
+</engine:UXML>
